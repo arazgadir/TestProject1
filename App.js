@@ -1,9 +1,11 @@
 import React from 'react';
-import TictactoeGame from './TictactoeGame';
+import {TictactoeGame} from './TictactoeGame';
 
-export const App = () => {
+const App = () => {
 
   return (
    <TictactoeGame/>
   )
-};    
+};
+
+export default App

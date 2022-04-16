@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Pressable, Button, Alert } from 'react-native'
-import checkWinner from './checkWinner'
+import {checkWinner} from './checkWinner'
 import styles from './styles'
 
 export const TictactoeGame = () => {
@@ -73,5 +73,3 @@ export const TictactoeGame = () => {
     </View>
   )
 };    
-
-export default TictactoeGame

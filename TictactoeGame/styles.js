@@ -27,10 +27,6 @@ const styles = StyleSheet.create({
     },
     newGame: {
         marginTop: 20,
-        paddingVertical: 10,
-        justifyContent: 'center',
-        textAlign: 'center',
-        borderRadius: 5
     },
 })
 
